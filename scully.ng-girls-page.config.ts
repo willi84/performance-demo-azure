@@ -34,6 +34,6 @@ extraRoutes: [
   '/faq'
 ],
   puppeteerLaunchOptions: {
-    args
+    args: ['--no-sandbox']
   }
 };
